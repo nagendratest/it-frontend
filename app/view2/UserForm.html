@@ -1,0 +1,74 @@
+
+<form ng-controller="View2Ctrl">
+					<div class="accordian">
+						<ul>
+							<li class="active">
+								<h2><a href="#">Please Fill All details</a></h2>
+								<div class="tab_cont">
+									<ul>
+										<li class="sub_active">
+											<!-- <h3>Personal info</h3> -->
+											<div class="inner_tab_cont">
+												<h4>Permanent Information</h4>
+												<p>Please enter your information here.</p>
+												<fieldset>
+													<legend>Personal information</legend>
+													<div class="form-group col-lg-4">
+														<label for="fname">First name</label>
+														<div class="input_field">
+															<input type="text" class="form-control"  ng-model="user.firstName">
+														</div>
+													</div>
+													<div class="form-group col-lg-4">
+														<label for="mname">LastName</label>
+														<div class="input_field">
+															<input type="text" class="form-control" id="mname" ng-model="user.lastName">
+														</div>
+													</div>
+
+													<div class="form-group col-lg-4">
+														<label for="gender">Gender</label>
+														<div class="input_field">
+															<select class="form-control" ng-model="signin.gender">
+															  <option>Male</option>
+															  <option>Female</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group col-lg-4">
+														<label for="date">Date of birth</label>
+														<div class="input_field">
+															<input type="text" class="form-control" id="date" placeholder="dd/mm/yy" ng-model="signin.dob">
+														</div>
+													</div>
+													<div class="form-group col-lg-4">
+														<label for="date">PAN number</label>
+														<div class="input_field">
+															<input type="text" class="form-control" id="date" ng-model="signin.pan">
+														</div>
+													</div>
+													<div class="form-group col-lg-4">
+														<label for="fathername">Father's name</label>
+														<div class="input_field">
+															<input type="text" class="form-control" id="fathername" ng-model="signin.fathername">
+														</div>
+													</div>
+													<div class="form-group col-lg-4">
+														<label for="gender">Marital Satatus</label>
+														<div class="input_field">
+															<select class="form-control" ng-model="signin.mstatus">
+															  <option>Prefer not to disclose</option>
+															  <option>Unmarried</option>
+															  <option>Married</option>
+															</select>
+														</div>
+													</div>
+												</fieldset>
+											</div>
+										</li>
+										</ul>
+										</div>
+										</li>
+										</ul>
+										</div>
+										</form>
