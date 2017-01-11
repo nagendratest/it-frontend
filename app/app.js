@@ -5,7 +5,7 @@ angular.module('myApp', [
   'ngRoute',
     'ngStorage',
   'myApp.home',
-  'myApp.view2'
+  'myApp.personal_info'
 
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
